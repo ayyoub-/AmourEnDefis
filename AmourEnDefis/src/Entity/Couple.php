@@ -23,7 +23,7 @@ class Couple
     #[ORM\Column(type: Types::DATETIME_MUTABLE)]
     private ?\DateTimeInterface $dateCreation = null;
 
-    #[ORM\OneToMany(mappedBy: 'couple')]
+    #[ORM\OneToMany(mappedBy: 'couple', targetEntity: CoupleDefi::class)]
     private ?CoupleDefi $participations;
 
     public function getId(): ?int
