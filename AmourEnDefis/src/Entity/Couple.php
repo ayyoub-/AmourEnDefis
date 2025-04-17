@@ -23,6 +23,9 @@ class Couple
     #[ORM\Column(type: Types::DATETIME_MUTABLE)]
     private ?\DateTimeInterface $dateCreation = null;
 
+    #[ORM\OneToMany(mappedBy: 'couple')]
+    private ?CoupleDefi $participations;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -60,6 +63,18 @@ class Couple
     public function setDateCreation(\DateTimeInterface $dateCreation): static
     {
         $this->dateCreation = $dateCreation;
+
+        return $this;
+    }
+
+    public function getParticipations()
+    {
+        return $this->participations;
+    }
+
+    public function setParticipations($participations): self
+    {
+        $this->participations = $participations;
 
         return $this;
     }
