@@ -83,6 +83,21 @@
       <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/cache-contracts" />
       <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/doctrine/sql-formatter" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

@@ -5,8 +5,20 @@
       <sourceFolder url="file://$MODULE_DIR$/AmourEnDefis/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/AmourEnDefis/tests" isTestSource="true" packagePrefix="App\Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/dbal" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/doctrine-migrations-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/event-manager" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/sql-formatter" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/nyholm/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/openai-php/client" />
@@ -33,6 +45,7 @@
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/dependency-injection" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/doctrine-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/dotenv" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/error-handler" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/event-dispatcher" />
@@ -54,6 +67,7 @@
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-intl-normalizer" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-php84" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/property-access" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/property-info" />
@@ -65,6 +79,7 @@
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/security-http" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/serializer" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/stopwatch" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/string" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/translation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/twig-bridge" />
