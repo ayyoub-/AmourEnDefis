@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Compatibilité Astrologique{% endblock %}
+
+{% block body %}
+    <h1>Génération des cartes astrologiques</h1>
+
+    <div class="astro-form">
+        <form method="post" id="astro-form">
+            <div class="astro-form">
+                <div>
+                    <h2>les informations du couple</h2>
+                    {{ form_widget(form1) }}
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Générer la carte astrologique</button>
+        </form>
+    </div>
+    <!-- Loader caché par défaut -->
+    <div id="loader" style="display: none;">
+        <img src="loader.gif" alt="Chargement..." /> <!-- Remplace par ton image de loader -->
+        <p>En cours de traitement...</p>
+    </div>
+    {% for message in app.flashes('error') %}
+        <div class="alert alert-danger">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.astro-form {
+    display: grid;
+    justify-content: center;
+    gap: 20px; /* Espace entre les deux formulaires */
+    margin-top: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    min-width: 300px;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+    background: #f8f9fa;
+}
+
+h1, h2 {
+    color: #5a3d5c; /* Couleur élégante */
+    font-weight: bold;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.btn-primary {
+    background-color: #6a0572;
+    border-color: #6a0572;
+}
+
+.btn-primary:hover {
+    background-color: #8c0c8c;
+    border-color: #8c0c8c;
+}
+
+#loader {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+#loader img {
+    width: 50px; /* Adapte la taille du loader */
+}
