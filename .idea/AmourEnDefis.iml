@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/AmourEnDefis/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/AmourEnDefis/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/openai-php/client" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/openai-php/symfony" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/php-http/multipart-stream-builder" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/phpstan/phpdoc-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/asset" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/form" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/maker-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/password-hasher" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-intl-icu" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/property-access" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/property-info" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/runtime" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/security-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/security-core" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/security-csrf" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/security-http" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/twig-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/twig-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/validator" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/webmozart/assert" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
