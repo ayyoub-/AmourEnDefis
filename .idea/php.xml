@@ -110,6 +110,7 @@
       <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/ux-turbo" />
       <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/stimulus-bundle" />
       <path value="$PROJECT_DIR$/AmourEnDefis/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/AmourEnDefis/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

@@ -102,6 +102,7 @@
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/ux-turbo" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/ux-twig-component" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/webpack-encore-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

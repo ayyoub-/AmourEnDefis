@@ -8,11 +8,27 @@ RUN usermod  --uid $UID $UNAME
 RUN groupmod --gid $GID $UGROUP
 
 RUN apt-get update \
-  && apt-get install -y libzip-dev git wget --no-install-recommends \
+  && apt-get install -y  \
+    wget \
+    git \
+    curl \
+    zip \
+    unzip \
+    libicu-dev \
+    libonig-dev \
+    libzip-dev \
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    nodejs \
+    npm \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+# 🟢 Installer Yarn (via corepack recommandé)
+RUN npm install --global corepack && corepack enable && corepack prepare yarn@stable --activate
 RUN docker-php-ext-install pdo mysqli pdo_mysql zip;
+RUN mkdir -p /var/www/.cache && chown -R www-data:www-data /var/www/
 
 # Install the latest Composer
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
