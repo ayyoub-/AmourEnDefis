@@ -90,6 +90,18 @@
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/data-fixtures" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/doctrine/doctrine-fixtures-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/easycorp/easyadmin-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/intl" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/stimulus-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/ux-chartjs" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/ux-turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/symfony/ux-twig-component" />
+      <excludeFolder url="file://$MODULE_DIR$/AmourEnDefis/vendor/fakerphp/faker" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

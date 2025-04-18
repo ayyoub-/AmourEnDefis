@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des défis{% endblock %}
+
+{% block body %}
+    <div class="container mt-4">
+        <h1>📋 Liste des défis</h1>
+
+        {% if defis is empty %}
+            <p>Aucun défi pour le moment !</p>
+        {% else %}
+            <ul>
+                {% for defi in defis %}
+                    <li>
+                        <strong>{{ defi.titre }}</strong><br>
+                        <em>Catégorie : {{ defi.categorie.titre }}</em><br>
+                        <p>{{ defi.description|raw }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+{% endblock %}
